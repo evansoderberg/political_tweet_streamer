@@ -1,7 +1,6 @@
-# 2016 Political Tweet Streamer
+# 2020 Political Tweet Streamer
 
-Stream tweets about 2016 US presidential candidates with [tweepy], write out json.
-
+Stream tweets about 2020 US Democratic presidential candidates with [tweepy], write out json & push to segment.
 
 ### Collect Data
 
@@ -11,7 +10,10 @@ Install requirements:
 pip install -r requirements.txt
 ```
 
+Add Twitter API keys to secrets.py
+
 ```python
 python stream.py
 ```
-[tweepy]:http://tweepy.readthedocs.org/en/v3.2.0/index.html
+
+[tweepy]: http://tweepy.readthedocs.org/en/v3.8.0/index.html
